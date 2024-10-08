@@ -18,23 +18,26 @@ Purpose: To authenticate documents or transactions.
 Usage: Can be used in legal, financial, or governmental contexts to ensure the authenticity of documents.
 Example: A digital signature on a PDF document that verifies the document has not been altered and confirms the identity of the signer.
 Summary
-Serverlegitimation:
 
-## Examples
 
-Purpose: Server authentication.
-Usage: Securing web communications (e.g., HTTPS).
-Example: SSL/TLS certificates used by websites.
-Stämpellegitimation:
+## Serverlegitimation Example
 
-Purpose: Document or transaction authentication.
-Usage: Ensuring the authenticity and integrity of documents.
-Example: Digital signatures on legal documents.
-Visual Representation
-Serverlegitimation:
+* Purpose: Server authentication.
+* Usage: Securing web communications (e.g., HTTPS).
+* Example: SSL/TLS certificates used by websites.
+
+## Stämpellegitimation Example
+
+* Purpose: Document or transaction authentication.
+* Usage: Ensuring the authenticity and integrity of documents.
+* Example: Digital signatures on legal documents.
+
+
+## Serverlegitimation Visual Representation
 
 Client <-> Server (Server presents SSL/TLS certificate to authenticate itself to the client).
-Stämpellegitimation:
+
+## Stämpellegitimation Visual Representation
 
 Document <-> Digital Signature (Document is signed with a digital signature to verify its authenticity and integrity).
 These terms may have specific meanings in certain contexts, so it's always a good idea to refer to the relevant documentation or standards for precise definitions.
